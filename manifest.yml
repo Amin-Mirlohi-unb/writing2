@@ -1,8 +1,0 @@
-applications:
- - name: writing2
-     path: ./dist
-     buildpack: https://github.com/Amin-Mirlohi-unb/writing2.git
-     random-route: true
-     memory: 256M
-     env:
-        FORCE_HTTPS: true
